@@ -26,6 +26,9 @@ h1,h2,h4 {
     padding-bottom:30px;
     padding-top:30px;
 }
+.just-txt-div label{
+  color: #01a2a6;
+}
 .just-txt-div h3{
   text-align: center;
   color: #01a2a6
@@ -135,19 +138,28 @@ border: 1px solid black;
 .below-slideshow {
     color:#fff;
     background:#01a2a6;
-    padding-bottom:50px;
+    padding-bottom:15px;
     
 }
     .below-slideshow i {
-        padding-bottom:15px;
+        /*padding-bottom:15px;*/
     }
-    .below-slideshow .txt-block {
-        
-        padding-top:50px;
+    .below-slideshow .txt-block{
+      padding-top: 30px;
+    }
+    .below-slideshow .txt-block h2 {
+      text-align: center;
+      /*color: #fff;*/
+
+    }
+    a.whitelink a:link{
+      color: #fff;
     }
      .below-slideshow h4 {
         font-weight:800;
         font-size:20px;
+    }
+    }
     }
     .below-slideshow p {
         padding-right:30px;
@@ -155,11 +167,12 @@ border: 1px solid black;
 .tag-home {
     padding-top:50px;
     padding-bottom:30px;
-    font-size:30px;
+    font-size:40px;
     text-align:center;
-    line-height:45px
-}
+    line-height:45px;
+    color: #01a2a6;
 
+}
 .parallax-like {
 margin-top: 20px;
 margin-bottom: 20px;
@@ -185,6 +198,21 @@ min-height: 300px;
 .just-sec {
     padding-top:50px;
     padding-bottom:70px;
+}
+
+.hands{
+  padding-top: 35px; 
+  border-radius: 200px;
+  opacity: 0.9;
+}
+.hands1{
+  /*padding-top: 35px; */
+  opacity: 0.9;
+  height: 200px;
+  /*width: 200px;*/
+  padding-left: 200px;
+  border-radius: 20px;
+
 }
 .set-div {
     border:1px solid #01a2a6;
